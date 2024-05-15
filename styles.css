@@ -33,7 +33,10 @@ img {
   border-radius: 50%;
   margin-bottom: 20px;
 }
-
+image {
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
 h1, h2 {
   color: #333;
   margin-bottom: 10px;
@@ -66,3 +69,30 @@ aside {
 .dropdown-container {
   display: none;
   background-color: #f0f0f0
+}
+.bottom-right {
+  position: fixed;
+  bottom: 10px;
+  left: 90%;
+  transform: translateX(-50%);
+}
+
+.bottom-right img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.bottom-middle {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-middle img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
